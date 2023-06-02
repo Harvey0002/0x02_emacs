@@ -1,0 +1,33 @@
+root@2f6b622868ae:/#  cd alx-pre_course/
+root@2f6b622868ae:/# alx-pre_course#
+root@2f6b622868ae:/# alx-pre_course# echo"something">'0x02_emacs ' > README.md   
+root@2f6b622868ae:/# alx-pre_course# cat README.md 
+0x02_emacs
+root@2f6b622868ae:/# alx-pre_course# git config --global user.email "hfils699@gmail.com"
+root@2f6b622868ae:/# alx-pre_course# git config --global user.name "habineza harvey"
+root@2f6b622868ae:/# alx-pre_course# git add .
+root@2f6b622868ae:/# alx-pre_course# git commit -m '0x02_emacs'
+[master (root-commit) 98eef93] 0x02_emacs commit
+root@hex:~# ls -l /root/0x02_emacs/opening
+-rw-r--r-- 1 root root 9 Nov 11 04:34 /root/0x02_emacs/opening
+root@hex:~# 
+:r 0x02_emacs<Return>
+:w<Return>
+:w /root/0x02_emacs/saving<Return>
+:12,35w /root/0x02_emacs/cutting<Return>
+:w! /root/0x02_emacs/pasting<Return>
+vi /root/0x02_emacs/searching
+vi -r /root/0x02_emacs/undoing
+/root/0x02_emacs/quitting
+:x<Return>
+:wq<Return>
+:q<Return>
+:q! <Return> 
+ create mode 100644 README.md
+root@2f6b622868ae:/# alx-pre_course# git push                                                                                           
+Enumerating objects:3, done.                                                                                                         
+Counting objects: 100% (3/3), done.                                                                                                   
+Writing objects: 100% (3/3), 212 bytes | 212.00 KiB/s, done.                                                                          
+Total 3 (delta 0), reused 0 (delta 0)                                                                                                 
+To https://github.com/{YOUR_USERNAME}/alx-pre_course.git                                                                                       
+ * [new branch]      master -> master   
